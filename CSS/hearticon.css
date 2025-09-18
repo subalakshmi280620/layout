@@ -1,0 +1,41 @@
+body{
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin:20px;
+}
+.nav-item:hover{
+
+    color:#FFA02D;
+    text-decoration: underline;
+}
+.deleted{
+    font-size: 40px;
+    margin-left: 600px;
+    opacity:0;
+    transition:opacity 0.3s ease;
+}
+.card:hover{
+    .deleted{
+        opacity:1;
+    }
+}
+.add{
+    border: 2px solid black;
+    background-color: #FFA02D;
+    color:black;
+    width:25%;
+    margin-left: 20px;
+    height:40px;
+    opacity:0;
+    transition: opacity 0.4s ease;
+}
+.card:hover{
+    .add{
+        opacity:1;
+    }
+}
+.color{
+    position:relative;
+    height:380px;
+}

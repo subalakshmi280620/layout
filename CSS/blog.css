@@ -1,0 +1,32 @@
+body{
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin:20px;
+}
+.nav-item:hover{
+
+    color:#FFA02D;
+    text-decoration: underline;
+}
+.profess{
+    position: relative;
+    background-color: rgb(13, 13, 32);
+    border-radius: 10px;
+    border:1px solid rgb(13, 13, 32);
+    height:150px;
+    z-index: 1;
+}
+.cuisinart{
+    position: absolute;
+    border-radius: 5px;
+    margin:20px;
+}
+.electronic{
+    position: relative;
+    background-color: rgb(13,13,32);
+    border-radius: 10px;
+    border: 1px solid rgb(13,13,32);
+    z-index:1;
+    margin:10px;
+}

@@ -1,0 +1,17 @@
+body{
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin:20px;
+}
+.nav-item:hover{
+
+    color:#FFA02D;
+    text-decoration: underline;
+}
+.nova{
+    
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
