@@ -1,0 +1,31 @@
+body{
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin:20px;
+}
+.nav-item:hover{
+
+    color:#FFA02D;
+    text-decoration: underline;
+}
+.hart{
+    font-size: 40px;
+    margin-left: 450px;
+    opacity: 0;
+    transition:opacity 0.3s ease;
+}
+.deleted{
+    font-size: 40px;
+    margin-left: 600px;
+    opacity:0;
+    transition:opacity 0.3s ease;
+}
+.card:hover{
+    .deleted{
+        opacity:1;
+    }
+    .hart{
+        opacity:1;
+    }
+}
